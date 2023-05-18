@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+
+    <style>
+      .loading-gif {
+          max-width: 500px;
+      }
+
+      .pre-loader {
+          position: fixed;
+          z-index: 100; /** make sure this is the highest value compared to all other divs **/
+          top: 0;
+          left: 0;
+          background: #fdfdfd;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100%;
+          width: 100%;
+      }
+
+      .pre-loader.hidden {
+          animation: fadeOut 4s; /** change to 1s */
+          animation-fill-mode: forwards;
+      }
+
+      @keyframes fadeOut {
+          100% {
+              opacity: 0;
+              visibility: hidden;
+          }
+      }
+    </style>
+    <!-- Boxicons -->
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- Glide js -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a953b048d3.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.theme.css">
+    <!-- Custom StyleSheet -->
+    <link rel="stylesheet" href="css\style.css" />
+
+    
+    
+    <title>e-commerce Website</title>
+
+
+
+  </head>
+  <body>
+
+
+    <p>   
+      <a href="index.html"></a>
+  </p>
+      
+      
+  <div class='pre-loader'>
+  
+  
+  
+  
+<img src="logoc-removebg-preview (1).png">    
+  
+  
+  </div>
+
+    <div class="container">
+      <div class="display-date">
+        <span id="day">day</span>,
+        <span id="daynum">00</span>
+        <span id="month">month</span>
+        <span id="year">0000</span>
+      </div>
+      <div class="display-time"></div>
+    </div>
+
+
+
+    
+    
+    <!-- Header -->
+    <header class="header" id="header">
+      <div class="top-nav">
+        <div class="container d-flex">
+
+          <ul class="d-flex">
+            <li><a href="#">About </a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Explore</a></li>
+            <li><a href="#">License</a></li>
+            <li><a href="#">Contact</a></li>
+
+            <li><a href="signup.html">Join </a></li>
+
+          </ul>
+    
+
+
+
+
+
+          
+
+     
+
+          <div class="mode">
+
+
+        
+            <input onclick="myFunction()" type="checkbox" id="switch" /><label for="switch">Toggle</label>
+
+
+
+
+          </div>
+
+        </div>
+      </div>
+
+
+      <br>
+
+      <div class="navigation">
+        <div class="nav-center container d-flex">
+
+          <a href="/" class="logo"><img src="m_merged.png" width="230px"></a>
+
+
+          <ul class="nav-list d-flex">
+            <li class="nav-item">
+              <a href="/" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="product.html" class="nav-link">Shop</a>
+            </li>
+            <li class="nav-item">
+            <a href="#terms" class="nav-link">Terms</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+
+
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+
+
+
+
+
+
+            <li class="icons d-flex">
+            <a href="login.html" class="icon">
+              <i class="bx bx-user"></i>
+            </a>
+            <div class="icon">
+              <i class="bx bx-search"></i>
+            </div>
+            <div class="icon">
+              <i class="bx bx-heart"></i>
+              <span class="d-flex">10</span>
+            </div>
+            <a href="cart.html" class="icon">
+              <i class="bx bx-cart"></i>
+              <span class="d-flex">2</span>
+            </a>
+          </li>
+          </ul>
+
+          
+
+          <div class="hamburger">
+            <i class="bx bx-menu-alt-left"></i>
+          </div>
+        </div>
+      </div>
+
+
+   
+
+<br>
+<br>
+
+  <div class="display-time"></div>
+</div>
+
+    
+    <div class="mento">
+      <img class="s1" src="ph1-removebg-preview.png">
+      <img class="s2" src="ph2-removebg-preview.png">
+      <img class="s3" src="ph3-removebg-preview.png">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+            </div>
+            <br>
+
+
+            <marquee behavior="scroll" direction="right"> JOIN US FOR THE LATEST TRENDS, SPECIAL OFFERS AND MORE!</marquee>
+
+<br>
+    <div class="hero">
+      <div class="glide" id="glide_1">
+        <div class="glide__track" data-glide-el="track">
+          <ul class="glide__slides">
+            <li class="glide__slide">
+              <div class="center">
+                <div class="left">
+                  <span class="">New Inspiration 2023</span>
+                  <h1 class="">NEW COLLECTION!</h1>
+                  <p>Trending from men's and women's  style collection</p>
+                  <a href="#" class="hero-btn">SHOP NOW</a>
+                </div>
+                <div class="right">
+                    <img class="img1" src="offer_img-removebg-preview.png" alt="" data-loaded="true">
+                </div>
+              </div>
+            </li>
+            <li class="glide__slide">
+              <div class="center">
+                <div class="left">
+                  <span>New Inspiration 2023</span>
+                  <h1>THE PERFECT MATCH!</h1>
+                  <p>Trending from men's and women's  style collection</p>
+                  <a href="#" class="hero-btn">SHOP NOW</a>
+                </div>
+                <div class="right">
+                  <img class="img2" src="pexels-roman-odintsov-11760484.jpg" alt="">
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+
+    <!-- Categories Section -->
+    <section class="section category">
+      <div class="cat-center">
+        <div class="cat">
+          <img src="Women0.jpg" alt="" />
+          <div>
+            <p>WOMEN'S WEAR</p>
+          </div>
+        </div>
+        <div class="cat">
+          <img src="acce.jpg" alt="" />
+          <div>
+            <p>ACCESSORIES</p>
+          </div>
+        </div>
+        <div class="cat">
+          <img src="Man1.jpg" alt="" />
+          <div>
+            <p>MEN'S WEAR</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="room">
+
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img  src="https://img-lcwaikiki.mncdn.com/Resource/Images/Banner/110523-r-egen-content4.jpg"  class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="https://img-lcwaikiki.mncdn.com/Resource/Images/Banner/110523-egen-content1.jpg"  class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img  src="https://img-lcwaikiki.mncdn.com/Resource/Images/Banner/110523-egen-content2.jpg"  class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+    </section>
+
+    <!-- New Arrivals -->
+    <section class="section new-arrival">
+      <div class="title">
+        <h1>NEW ARRIVALS</h1>
+        <p>All the latest picked from designer of our store</p>
+      </div>
+
+      <div class="product-center">
+        <div class="product-item">
+          <div class="overlay">
+            <a href="productDetails.html" class="product-thumb">
+              <img src="c_western-shirt.png" alt="" />
+            </a>
+          </div>
+          <div class="product-info">
+            <span>MEN'S CLOTHES</span>
+            <a href="c_tunic-shirt_girl.png">Quis Nostrud Exercitation</a>
+            <h4>$700</h4>
+          </div>
+          <ul class="icons">
+            <li><i class="bx bx-heart"></i></li>
+            <li><i class="bx bx-search"></i></li>
+            <li><i class="bx bx-cart"></i></li>
+          </ul>
+        </div>
+        <div class="product-item">
+          <div class="overlay">
+            <a href="" class="product-thumb">
+              <img src="best_selling_1.jpg" alt="" />
+            </a>
+            <span class="discount">50%</span>
+          </div>
+
+          <div class="product-info">
+            <span>MEN'S CLOTHES</span>
+            <a href="best_selling_2.jpg">Sonata White Men’s Shirt</a>
+            <h4>$800</h4>
+          </div>
+          <ul class="icons">
+            <li><i class="bx bx-heart"></i></li>
+            <li><i class="bx bx-search"></i></li>
+            <li><i class="bx bx-cart"></i></li>
+          </ul>
+        </div>
+        <div class="product-item">
+          <div class="overlay">
+            <a href="" class="product-thumb">
+              <img src="c_pant_girl.png" alt="" />
+            </a>
+          </div>
+          <div class="product-info">
+            <span>MEN'S CLOTHES</span>
+            <a href="">Concepts Solid Pink Men’s Polo</a>
+            <h4>$150</h4>
+          </div>
+          <ul class="icons">
+            <li><i class="bx bx-heart"></i></li>
+            <li><i class="bx bx-search"></i></li>
+            <li><i class="bx bx-cart"></i></li>
+          </ul>
+        </div>
+        <div class="product-item">
+          <div class="overlay">
+            <a href="" class="product-thumb">
+              <img src="top_rated_1.jpg" alt="" />
+            </a>
+            <span class="discount">50%</span>
+          </div>
+          <div class="product-info">
+            <span>MEN'S CLOTHES</span>
+            <a href="">Edor do eiusmod tempor</a>
+            <h4>$900</h4>
+          </div>
+          <ul class="icons">
+            <li><i class="bx bx-heart"></i></li>
+            <li><i class="bx bx-search"></i></li>
+            <li><i class="bx bx-cart"></i></li>
+          </ul>
+        </div>
+        <div class="product-item">
+          <div class="overlay">
+            <a href="" class="product-thumb">
+              <img src="c_formal_gray_shirt.png" alt="" />
+            </a>
+          </div>
+          <div class="product-info">
+            <span>MEN'S CLOTHES</span>
+            <a href="">Edor do eiusmod tempor</a>
+            <h4>$100</h4>
+          </div>
+          <ul class="icons">
+            <li><i class="bx bx-heart"></i></li>
+            <li><i class="bx bx-search"></i></li>
+            <li><i class="bx bx-cart"></i></li>
+          </ul>
+        </div>
+        <div class="product-item">
+          <div class="overlay">
+            <a href="" class="product-thumb">
+              <img src="c_t-shirt_men.png" alt="" />
+            </a>
+          </div>
+          <div class="product-info">
+            <span>MEN'S CLOTHES</span>
+            <a href="">Edor do eiusmod tempor</a>
+            <h4>$500</h4>
+          </div>
+          <ul class="icons">
+            <li><i class="bx bx-heart"></i></li>
+            <li><i class="bx bx-search"></i></li>
+            <li><i class="bx bx-cart"></i></li>
+          </ul>
+        </div>
+        <div class="product-item">
+          <div class="overlay">
+            <a href="" class="product-thumb">
+              <img src="c_shirt-girl.png" alt="" />
+            </a>
+            <span class="discount">50%</span>
+          </div>
+          <div class="product-info">
+            <span>MEN'S CLOTHES</span>
+            <a href="">Edor do eiusmod tempor</a>
+            <h4>$200</h4>
+          </div>
+          <ul class="icons">
+            <li><i class="bx bx-heart"></i></li>
+            <li><i class="bx bx-search"></i></li>
+            <li><i class="bx bx-cart"></i></li>
+          </ul>
+        </div>
+        <div class="product-item">
+          <div class="overlay">
+            <a href="" class="product-thumb">
+              <img src="c_undershirt.png"" />
+            </a>
+          </div>
+          <div class="product-info">
+            <span>MEN'S CLOTHES</span>
+            <a href="">Edor do eiusmod tempor</a>
+            <h4>$560</h4>
+          </div>
+          <ul class="icons">
+            <li><i class="bx bx-heart"></i></li>
+            <li><i class="bx bx-search"></i></li>
+            <li><i class="bx bx-cart"></i></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Promo -->
+
+    <section class="section banner">
+<div class="left">
+  <span class="trend"></span>
+  <h1>New Collection 2023</h1>
+  <p>New Arrival <span class="color">Sale 50% OFF</span> Limited Time Offer</p>
+  <a href="#" class="btn btn-1">Discover Now</a>
+</div>
+<div class="right">
+  <img src="b7-removebg-preview.png" width="10px" >
+</div>
+    </section>
+
+    <div class="container">
+      <a class="loading-btn" href="#">...SALE<br> CLICK HERE</a>
+    </div>
+
+    <!-- Featured -->
+  
+    <section class="section new-arrival">
+      <div class="title">
+        <h1>Featured</h1>
+        <p>All the latest picked from designer of our store</p>
+      </div>
+
+      <div class="product-center">
+        <div class="product-item">
+          <div class="overlay">
+            <a href="" class="product-thumb">
+              <img src="top_rated_2.jpg" alt="" />
+            </a>
+            <span class="discount">50%</span>
+          </div>
+          <div class="product-info">
+            <span>MEN'S CLOTHES</span>
+            <a href="">Quis Nostrud Exercitation</a>
+            <h4>$700</h4>
+          </div>
+          <ul class="icons">
+            <li><i class="bx bx-heart"></i></li>
+            <li><i class="bx bx-search"></i></li>
+            <li><i class="bx bx-cart"></i></li>
+          </ul>
+        </div>
+        <div class="product-item">
+          <div class="overlay">
+            <a href="" class="product-thumb">
+              <img src="on_sale_1.jpg" alt="" />
+            </a>
+          </div>
+
+          <div class="product-info">
+            <span>MEN'S CLOTHES</span>
+            <a href="">Sonata White Men’s Shirt</a>
+            <h4>$800</h4>
+          </div>
+          <ul class="icons">
+            <li><i class="bx bx-heart"></i></li>
+            <li><i class="bx bx-search"></i></li>
+            <li><i class="bx bx-cart"></i></li>
+          </ul>
+        </div>
+        <div class="product-item">
+          <div class="overlay">
+            <a href="" class="product-thumb">
+              <img src="on_sale_3.jpg" alt="" />
+            </a>
+            <span class="discount">40%</span>
+          </div>
+          <div class="product-info">
+            <span>MEN'S CLOTHES</span>
+            <a href="">Concepts Solid Pink Men’s Polo</a>
+            <h4>$150</h4>
+          </div>
+          <ul class="icons">
+            <li><i class="bx bx-heart"></i></li>
+            <li><i class="bx bx-search"></i></li>
+            <li><i class="bx bx-cart"></i></li>
+          </ul>
+        </div>
+        <div class="product-item">
+          <div class="overlay">
+            <a href="" class="product-thumb">
+              <img src="top_rated_2.jpg" alt="" />
+            </a>
+          </div>
+          <div class="product-info">
+            <span>MEN'S CLOTHES</span>
+            <a href="">Edor do eiusmod tempor</a>
+            <h4>$900</h4>
+          </div>
+          <ul class="icons">
+            <li><i class="bx bx-heart"></i></li>
+            <li><i class="bx bx-search"></i></li>
+            <li><i class="bx bx-cart"></i></li>
+          </ul>
+        </div>
+
+    </section>
+
+    <section>
+
+
+
+
+      <div class="container">
+        <h2>Cloza</h2>
+        <p>We love to see how you style your favourites from Cloza</p>
+        <p> Keep sharing your personal style with @CLO and #CLOxME for a chance to be featured at CLOZA.com,</p>
+        <p>in our marketing materials and in our stores.</p>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="thumbnail">
+              <a href="/w3images/lights.jpg" target="_blank">
+                <img src="pexels-dmitry-zvolskiy-1676126.jpg" alt="Lights" style="width:100%">
+                <div class="caption">
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail">
+              <a href="#" target="_blank">
+                <img src="pexels-rovenimagescom-949590.jpg" alt="Nature" style="width:100%">
+                <div class="caption">
+    
+    
+    
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail">
+              <a href="/w3images/fjords.jpg" target="_blank">
+                <img src="pexels-marta-branco-1395306.jpg" alt="Fjords" style="width:100%">
+                <div class="caption">
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <div class="row">
+        <div class="col-md-4">
+          <div class="thumbnail">
+            <a href="/w3images/lights.jpg" target="_blank">
+              <img src="pexels-marta-branco-1453008.jpg" alt="Lights" style="width:100%">
+              <div class="caption">
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="thumbnail">
+            <a href="/w3images/nature.jpg" target="_blank">
+              <img src="pexels-neosiam-634242.jpg" alt="Nature" style="width:100%">
+              <div class="caption">
+    
+    
+    
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="thumbnail">
+            <a href="/w3images/fjords.jpg" target="_blank">
+              <img src="pexels-dmitry-zvolskiy-1676127.jpg" alt="Fjords" style="width:100%">
+              <div class="caption">
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    
+    
+    
+    </section>
+<br>
+<br>    
+
+
+
+
+
+
+    <!-- Contact -->
+    <section class="section contact">
+      <div class="row">
+        <div class="col">
+          <h1>EXCELLENT SUPPORT</h2>
+          <p><h3>We love our customers and they can reach us any time
+          of day we will be at your service 24/7</p>
+          <a href="" class="btn btn-1">Contact</h3></a>
+        </div>
+        <div class="col">
+          <form action="">
+            <div>
+              <input type="email" placeholder="Email Address">
+            <a href="">Send</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+<br>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="row">
+        <div class="col d-flex">
+          <h2>INFORMATION</h2>
+          <a href="">About us</a>
+          <a href="">Contact Us</a>
+          <a href="">Term & Conditions</a>
+          <a href="">Shipping Guide</a>
+        </div>
+        <div class="col d-flex">
+          <h2>USEFUL LINK</h2>
+          <a href="">Online Store</a>
+          <a href="">Customer Services</a>
+          <a href="">Promotion</a>
+          <a href="">Top Brands</a>
+        </div>
+
+
+        <div class="row">
+          <div class="col d-flex">
+            <h2>INFORMATION</h4>
+            <a href="">About us</a>
+            <a href="">Contact Us</a>
+            <a href="">Term & Conditions</a>
+            <a href="">Shipping Guide</a>
+          </div>
+       
+
+
+
+        <div class="col d-flex">
+          <span><i class='bx bxl-facebook-square'></i></span>
+          <span><i class='bx bxl-instagram-alt' ></i></span>
+          <span><i class='bx bxl-github' ></i></span>
+          <span><i class='bx bxl-twitter' ></i></span>
+          <span><i class='bx bxl-pinterest' ></i></span>
+        </div>
+      </div>
+    </footer>
+
+   <h6> © 2023, CLOZA Powered  <a href="#">by Mannar AZ </a></h6>
+  <!-- PopUp -->
+  <div class="popup hide-popup">
+    <div class="popup-content">
+      <div class="popup-close">
+        <i class='bx bx-x'></i>
+      </div>
+      <div class="popup-left">
+        <div class="popup-img-container">
+          <img class="popup-img" src="popup.jpg" alt="popup">
+        </div>
+      </div>
+      <div class="popup-right">
+        <div class="right-content">
+          <h1>Get Discount <span>50%</span> Off</h1>
+          <p>Sign up to our newsletter and save 30% for you next purchase. No spam, we promise!
+          </p>
+          <form action="#">
+            <input type="email" placeholder="Enter your email..." class="popup-form">
+            <a href="#">Subscribe</a>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+  <script>
+    /* paste this line in verbatim */
+    window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
+    /* customize formbutton below*/     
+    formbutton("create", {
+      action: "https://formspree.io/f/xlekvvrr",
+      title: "How can we help?",
+      fields: [
+        { 
+          type: "email", 
+          label: "Email:", 
+          name: "email",
+          required: true,
+          placeholder: "your@email.com"
+        },
+        {
+          type: "textarea",
+          label: "Message:",
+          name: "message",
+          placeholder: "What's on your mind?",
+        },
+        { type: "submit" }      
+      ],
+      styles: {
+        title: {
+          backgroundColor: "gray"
+        },
+        button: {
+          backgroundColor: "gray"
+        }
+      }
+    });
+  </script>
+      <script src="main.js"></script>
+
+
+  <!-- js to hide preloader loading is done -->
+  <script type='text/javascript'>
+    window.addEventListener('load', function () {
+        document.querySelector('.pre-loader').className += ' hidden';
+    });
+
+  </script>
+
+
+  <script>
+    function myFunction() {
+       var element = document.body;
+       element.classList.toggle("dark-mode");
+    }
+
+  </script>
+
+ 
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+  
+  
+  <script src="js\slider.js"></script>
+
+  <script src="js\zoomsl.min.js"></script>
+
+  <script src="js\script.js"></script>
+  <script src="js\index.js"></script>
+</html>
