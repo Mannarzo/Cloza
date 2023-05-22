@@ -1,0 +1,424 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Box icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <!-- Custom StyleSheet -->
+
+
+    <style>
+      .loading-gif {
+          max-width: 500px;
+      }
+
+      .pre-loader {
+          position: fixed;
+          z-index: 100; /** make sure this is the highest value compared to all other divs **/
+          top: 0;
+          left: 0;
+          background: #fdfdfd;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100%;
+          width: 100%;
+      }
+
+      .pre-loader.hidden {
+          animation: fadeOut 4s; /** change to 1s */
+          animation-fill-mode: forwards;
+      }
+
+      @keyframes fadeOut {
+          100% {
+              opacity: 0;
+              visibility: hidden;
+          }
+      }
+    </style>
+    <!-- Boxicons -->
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- Glide js -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a953b048d3.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.theme.css">
+    <!-- Custom StyleSheet -->
+    <link rel="stylesheet" href="css\style.css" />
+
+    <link rel="stylesheet" href="css\style.css" />
+    <title>Your Cart</title>
+  </head>
+  <body>
+   
+    <p>   
+      <a href="index.html"></a>
+  </p>
+      
+      
+  <div class='pre-loader'>
+  
+  
+  
+  
+<img src="logoc-removebg-preview (1).png">    
+  
+  
+  </div>
+
+    <div class="container">
+      <div class="display-date">
+        <span id="day">day</span>,
+        <span id="daynum">00</span>
+        <span id="month">month</span>
+        <span id="year">0000</span>
+      </div>
+      <div class="display-time"></div>
+    </div>
+
+
+
+    
+    
+    <!-- Header -->
+    <header class="header" id="header">
+      <div class="top-nav">
+        <div class="container d-flex">
+
+          <ul class="d-flex">
+            <li><a href="product.html">Explore </a></li>
+            <li><a href="product.html">FAQ</a></li>
+            <li><a href="product.html">About</a></li>
+            <li><a href="product.html">Product</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+
+            <li><a href="signup.html">Join </a></li>
+
+          </ul>
+    
+    
+
+
+
+
+
+          
+
+     
+
+          <div class="mode">
+
+
+        
+            <input onclick="myFunction()" type="checkbox" id="switch" /><label for="switch">Toggle</label>
+
+
+
+
+          </div>
+
+        </div>
+      </div>
+
+
+      <br>
+
+      <div class="navigation">
+        <div class="nav-center container d-flex">
+
+          <a href="/" class="logo"><img src="m_merged.png" width="230px"></a>
+
+
+          <ul class="nav-list d-flex">
+            <li class="nav-item">
+              <a href="/" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="product.html" class="nav-link">Shop</a>
+            </li>
+            <li class="nav-item">
+            <a href="#terms" class="nav-link">Terms</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+
+
+            <li class="nav-item">
+              <a href="Contact.html" class="nav-link">Contact</a>
+            </li>
+
+
+
+
+
+
+            <li class="icons d-flex">
+            <a href="login.html" class="icon">
+              <i class="bx bx-user"></i>
+            </a>
+            <div class="icon">
+              <i class="bx bx-search"></i>
+            </div>
+            <div class="icon">
+              <i class="bx bx-heart"></i>
+              <span class="d-flex">10</span>
+            </div>
+            <a href="cart.html" class="icon">
+              <i class="bx bx-cart"></i>
+              <span class="d-flex">2</span>
+            </a>
+          </li>
+          </ul>
+
+          
+
+          <div class="hamburger">
+            <i class="bx bx-menu-alt-left"></i>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+      <br>
+      <br>
+      <br>
+      <br>
+
+
+
+
+
+<div class="staticPage c-content__container">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    <h1>FAQs</h1>
+    <h3><strong>What delivery options do you offer?</strong></h3>
+    <p>We offer a Home Delivery option as well as a Click and collect service for selected stores. Times and cost for deliveries will vary depending on the location. For more information, please see our <a href="https://eg.hm.com/en/delivery-information/">delivery information</a> page.</p>
+    <h3><strong>What time does the Cloza customer care team operate, and how can I get in contact?</strong></h3>
+    <p>You can contact our customer care team on the following number: <a href="tel:02-24803822"><u><span lang="EN-IN" style="font-size:10.0pt">02-24803822</span></u></a></p>
+    <h3><strong>CLOZA Customer Service:</strong></h3>
+    <p><span lang="EN-IN"><span><span>We are open Saturday to Thursday 9 am to 10 pm &amp; Friday 1 pm to 10 pm (including Public holidays).</span></span></span></p>
+    <p>You can also <a href="https://eg.hm.com/en/contact">contact us</a> using our quick form and our team will get back to you as soon as possible.</p>
+    <h3><strong>Can I view my order history?</strong></h3>
+    <p>You can view your orders at any time using our website. Simply follow the steps below.</p>
+    <ol>
+    <li>Log in to our website and click on 'my account' at the top of the page.</li>
+    <li>Click on the link ‘View Orders’ on the left of the page. This will show you your order history.</li>
+    </ol>
+    <h3>Can I track my order online?</h3>
+    <p>Yes, you will receive a unique tracking via email once your order is packed. This link will allow you to track your order at any time letting you know when your order will be delivered.</p>
+    <h3><strong>When I place an order, how long does delivery take?</strong></h3>
+    <p>Your order confirmation email will inform you of the expected lead time for delivery. Our courier company will attempt to call you should they not have enough delivery information to deliver your order.</p>
+    <h3><strong>I've received my order, but it's not suitable. How do I return it?</strong></h3>
+    <p>CLOZA is dedicated to offering the highest levels of quality and service. We will be happy to refund or exchange any item(s)* that you are not completely satisfied with, as long as they are returned in an unused condition and in their original packaging, within 14 days of receipt of your order with a copy of the Invoice. Items can be returned to any H&amp;M store.</p>
+    <p>Please visit our&nbsp;<a href="index.html">returns and refunds</a> page for full details.</p>
+    <h3><strong>I've received a discount voucher, but the code doesn't work online, why is this?</strong></h3>
+    <p>Please be aware that once you’ve applied the voucher code, it cannot be used again, so please do not apply it until you’re sure that you’re ready to place and pay for your order.</p>
+    <p>Most common reasons for promotion codes not working are being out of date; being applied to products that are not eligible or the set order limit not being reached.</p>
+    <p>If you’re still having problems, you can also <a href="contact.html">contact us</a> using our quick form and we'll be happy to explain how you can redeem your discount online.&nbsp;</p>
+    <h3><strong>How can I remove my details from your mailing list?</strong></h3>
+    <p>We’re sorry to hear you’re thinking about unsubscribing. Simply login to your account on our website and follow the quick steps below.</p>
+    <ol>
+    <li>
+    <pclick on="" the="">
+    <p>Click on the 'My Account' link at the top of the website.</p>
+    </pclick></li>
+    <li>Click on the 'Communication Preferences'</li>
+    <li>Simply un-tick the email check box and click 'Save'.</li>
+    <li>You will see a message telling you that the subscription has been removed.</li>
+    <li>If you wish to subscribe to the newsletters again at any time, simply navigate to this section, tick the check box and click 'Save'.</li>
+    </ol>
+    <p>You can also unsubscribe by clicking on the unsubscribe link at the end of any promotional email. On click, you will navigate to the un-subscription page on the website where once you enter the reason for un-subscription and click 'Unsubscribe', you can start a new shopping journey.</p>
+    <h3><strong>Why has my order been cancelled?</strong></h3>
+    <p>Your order may be cancelled for a number of reasons. The most common reasons for this are: -</p>
+    <ul>
+    <li>
+    <p>High demand of goods – In this event, you will receive an email confirming the cancellation and what to do next.</p>
+    </li>
+    <li>If you requested a cancellation. You’ll receive a confirmation email once this has been done.</li>
+    <li>]If we’ve been unsuccessful in delivering the order to your chosen delivery address.</li>
+    <li>If payment was not successful</li>
+    <li>If the order was not collected from the selected store within the collection period of 14&nbsp;days</li>
+    </ul>
+    <h3>What is Click &amp; Collect?</h3>
+    <p>You can place an order for an item online and have it delivered to the store of your choice. This service is free of charge for all orders.</p>
+    <p>•&nbsp;&nbsp; &nbsp;City Stars Cairo</p>
+    <p>•&nbsp;&nbsp; &nbsp;City Centre Alexandria</p>
+    <p>•&nbsp;&nbsp; &nbsp;Dandy Mall Cairo</p>
+    <p>•&nbsp;&nbsp; &nbsp;Katamiya Down Town Cairo</p>
+    <p>•&nbsp;&nbsp; &nbsp;Maadi City Centre Cairo</p>
+    <p>•&nbsp;&nbsp; &nbsp;Lebanon St Mohandseen Cairo</p>
+    <p>•&nbsp;&nbsp; &nbsp;Cairo Festival City</p>
+    <p>•&nbsp;&nbsp; &nbsp;Lebanon St Mohandseen Cairo Kids</p>
+    <p>•&nbsp;&nbsp; &nbsp;Smouha Lotus Stars Alexandria</p>
+    <p>•&nbsp;&nbsp; &nbsp;Point 90 Cairo</p>
+    <p>•&nbsp;&nbsp; &nbsp;Nehru Street Helioplis Cairo</p>
+    <p>•&nbsp;&nbsp; &nbsp;Mall of Egypt</p>
+    <p>•&nbsp;&nbsp; &nbsp;Dokki Shooting Club Street</p>
+    <h3><strong>I've placed an order online and it looked as though it was processed; yet I haven't received a confirmation email. Why?</strong></h3>
+    <p>We’re sorry that you haven't received your confirmation email. If our email address is not in your address book or safe list, it may have been classed as spam mail, meaning that it might not have appeared in your inbox. It is also worth checking that your email address has been entered into your account correctly.</p>
+    <p>Usually our confirmation emails are sent within a few minutes of an order being placed. However, when our site is very busy, you may have to wait a little bit longer before you receive your email.</p>
+    <h3><strong>How do I change my delivery address?</strong></h3>
+    <p>You may update your CLOZA address book by clicking the 'my account' link at the top of the page, logging in using your username and password and selecting 'address book' from where you can add, remove and amend your addresses.</p>
+    <p>If you have already placed an order changes made in this area will not alter their delivery details. Once an order has been placed it is often not possible for us to change the delivery address.</p>
+    <h3><strong>After placing my order, when is payment taken from my account?</strong></h3>
+    <p>All payments will be charged once your order is confirmed.&nbsp;This is applicable on both credit and debit cards.</p>
+    <h3><strong>How do I know if my online order has been successful?</strong></h3>
+    <p>When you place an order on our website, we will reply to you with an email confirming your order and all delivery and billing address details, including all the items you have ordered.</p>
+    <p>Please check that all the information is correct on this confirmation email as incorrect information can cause delays on your order.</p>
+    <h3><strong>I have forgotten my password. What should I do?</strong></h3>
+    <p>If you have an existing account with us and have forgotten your password, please click the 'sign in / register' link at the top of the page. Click the 'forgotten your password?' link. We will then send you an email with instructions to reset your password.</p>
+    <p>If you don't receive your password reset email within 1 hour, please check your spam folder. If the email is not in your spam folder, please request another by contacting our customer care team number <a href="tel:02-24803822"><u><span lang="EN-IN" style="font-size:10.0pt">02-24803822</span></u></a> <span lang="EN-GB" style="font-size:9.0pt"><span style="font-family:&quot;Helvetica&quot;,sans-serif"><span style="color:#666666">(Egypt).</span></span></span></p>
+    <h3><strong>Can I change my payment information?</strong></h3>
+    <p>Once an order has been placed, we are unable to change your payment information. By default, we do not store any payment information on our systems.</p>
+    <p>To update or change your personal information please log-in to eg.hm.com using the 'sign in / register' link at the top of the page. If you are already signed in, please click the 'my account' link at the top of the page. Then select 'my details and contact preferences'. From this section you may view and amend your password, address, wish list and contact details including choosing how you would like us to contact you.</p>
+    <h3>Store locator link</h3>
+    <p><a href="https://eg.hm.com/en/store-finder">Store Finder</a></p>
+    <h3>Size guide link</h3>
+    <p><a class="faqs-size-guide size-guide-link use-ajax" data-dialog-options="{&quot;height&quot;:400,&quot;width&quot;:700}" data-dialog-type="dialog" href="/en/modal-link-views/size-guide" rel="nofollow" data-once="ajax">Size Guide</a></p>
+    <h3>Garment care – WASHING INSTRUCTIONS:</h3>
+    <p>Paying some extra attention to how you wash your clothes will not only prolong their life, but also help minimize the environmental impact and save our natural resources. The washing instructions on the label will give you advise on how to best care for your garment, and here are some other resourceful advices.</p>
+    <h3>Chunky-knits</h3>
+    <p>Chunky-knits should be reshaped and dried flat to maintain the original shape, which is why these garments are additionally labelled “Dry flat”.</p>
+    <h3>Linen</h3>
+    <p>Linen is a natural material and can easily get misshapen when wet. To restore the garment to its original shape, iron it with a hot steam iron. To keep its sheen, iron the garment on the reverse side.</p>
+    <h3>Viscose</h3>
+    <p>Viscose is an artificial fibre from cellulose and can easily get misshapen when wet. To restore the garment easily to its original shape, iron it with a steam iron.</p>
+    <h3>Silk</h3>
+    <p>Silk is a very delicate material and should be treated with care. Use a detergent for delicates when washing silk and do not stretch the garment while wet.</p>
+    <h3>Wool</h3>
+    <p>Often, airing woollen garments is enough. Use a detergent for delicates when you do wash them. Use the wool or hand wash cycle on your washing machine or wash by hand. Iron after washing to restore the natural sheen.</p>
+    <h3>Denim</h3>
+    <p>Wash jeans inside out to reduce fade. Remove them from the washing machine as soon as possible after the programme has ended to avoid creasing. Denim’s characteristic appearance is the result of a special dyeing method. Thus, small pigment particles may remain on the surface and can rub off.</p>
+    <h3>Leather and suede</h3>
+    <p>Leather and suede garments should be taken to a leather specialist for cleaning. Follow the care instructions.</p>
+    <p>Shoe polish and/or waterproofing spray should be applied to leather shoes and bags. This simple measure will improve their protection against water, extending the life of your shoes/bag and making them more capable of withstanding dirt.</p>
+    <p>Just use waterproofing spray for suede and nubuck, not polish. Try not to wear your suede/nubuck shoes or carry your suede/nubuck bag if it is raining or very damp out, because this could cause staining on the product and the dye in the product could rub off onto your belongings more easily. Insert shoe trees to keep your shoes in shape, and use a shoe horn to protect the high backs/heels of your shoes when you put them on. Undo your laces and buckles when taking your shoes off and putting them on.</p>
+    <h3>Down jackets</h3>
+    <p>Place tennis balls in the tumble dryer when drying down garments to distribute the down evenly. The down must be dried completely.</p>
+    <h3>Rainwear</h3>
+    <p>Rainwear should drip-dry. If you dry them in a drying cabinet, do so at a low temperature. Follow the care instructions.</p>
+    <h3>Details</h3>
+    <p>Take off removable details and do up Velcro and zip fastenings before washing. Wash nylon tights and delicate garments with details in a laundry bag.</p>
+    <h3>Garment care – CONSCIOUS WASHING:</h3>
+    <p>Washing, drying and ironing your clothes accounts for 36% of the total environmental impact of the average garment during its lifetime! This can be more than halved if we make smarter choices. You can help the planet and your wardrobe by washing your clothes less frequently, reducing the washing temperature, ironing less and avoiding tumble-drying.</p>
+    <p>Choosing smart care methods can help you to extend the life of your wardrobe favourites while also reducing your environmental impact, and your clothes will be just as clean.</p>
+    <h3>Don’t wash clothes unnecessarily</h3>
+    <p>Don’t wash clothes that are not dirty. Often, airing and brushing clothes is enough.</p>
+    <h3>Lower the washing temperature</h3>
+    <p>H&amp;M always labels its garments with the highest permitted temperature. But you can select a lower washing temperature to save energy. Most detergents wash just as well at lower temperatures. Washing at 40°C uses around half as much energy as washing at 60°C. H&amp;M recommends that heavily soiled clothes and underwear are always washed at the highest temperature allowed. Do not wash your clothes at temperatures hotter than those stated in the care instructions.</p>
+    <h3>Fill your washing machine</h3>
+    <p>Sort the clothes by colour and washing temperature. Fill up your washing machine, but don’t stuff too much in. A washing machine is full when you can place a clenched fist on top of the washing without compressing the clothes. Use an energy saving programme – most modern washing machines have one.</p>
+    <h3>Choose an eco-friendly laundry detergent</h3>
+    <p>Use an environmentally friendly detergent that is free from optical whiteners and phosphates, since these have a negative environmental impact when released into nature. Dose the detergent as stated on the packaging. Overdosing detergent will not make your clothes cleaner. To get the dose right, you need to know whether you have hard or soft water. Avoid fabric conditioners, although H&amp;M recommends that acrylic garments are washed with fabric conditioner to counter static electricity in the garment after washing.</p>
+    <h3>Avoid dry cleaning</h3>
+    <p>Dry cleaning is a process in which the clothes are cleaned using an organic solvent. Dry cleaning has a negative environmental impact when the solvent is released into nature. A small proportion of H&amp;M’s garments are dry clean only, because they contain details or materials than could change colour or become misshapen by washing at home. Today, there are also greener methods of dry cleaning that clean the clothes using only carbon dioxide reclaimed from industry. This type of dry cleaning therefore does not release chemicals.</p>
+    <h3>Leave your washing out to dry</h3>
+    <p>It is preferable to leave your washing out to dry since tumble drying and drying cabinets use a lot of energy. To reduce drying time, gentle cycle the clothes well before taking them out of the washing machine.</p>
+    <h3>Give away your clothes!</h3>
+    <p>When you no longer have a use for clothes, give them to an organisation that can extend the garment’s life.</p>
+    </div>
+
+
+
+
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="row">
+          <div class="col d-flex">
+            <h4>INFORMATION</h4>
+            <a href="">About us</a>
+            <a href="">Contact Us</a>
+            <a href="">Term & Conditions</a>
+            <a href="">Shipping Guide</a>
+          </div>
+          <div class="col d-flex">
+            <h4>USEFUL LINK</h4>
+            <a href="">Online Store</a>
+            <a href="">Customer Services</a>
+            <a href="">Promotion</a>
+            <a href="">Top Brands</a>
+          </div>
+          <div class="col d-flex">
+            <span><i class="bx bxl-facebook-square"></i></span>
+            <span><i class="bx bxl-instagram-alt"></i></span>
+            <span><i class="bx bxl-github"></i></span>
+            <span><i class="bx bxl-twitter"></i></span>
+            <span><i class="bx bxl-pinterest"></i></span>
+          </div>
+        </div>
+      </footer>
+  
+      <!-- Custom Script -->
+      <script src="js/index.js"></script>
+      <!-- js to hide preloader loading is done -->
+      <script type='text/javascript'>
+        window.addEventListener('load', function () {
+            document.querySelector('.pre-loader').className += ' hidden';
+        });
+    
+      </script>
+    
+    
+      <script>
+        function myFunction() {
+           var element = document.body;
+           element.classList.toggle("dark-mode");
+        }
+    
+      </script>
+    
+     
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+      </body>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+      
+      
+      <script src="js\slider.js"></script>
+    
+      <script src="js\zoomsl.min.js"></script>
+    
+      <script src="js\script.js"></script>
+      <script src="js\index.js"></script>
+    </html>
