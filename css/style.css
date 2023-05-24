@@ -1596,10 +1596,12 @@ label {
 label:after {
 	content: '';
 	position: absolute;
-	top: 8px;
+	
+	
+		top: 5.9px;
 	left: 7px;
-	width: 10px;
-	height: 10px;
+	width: 15px;
+	height: 15px;
 	background: #030303;
 	border-radius: 90px;
 	transition: 0.3s;
