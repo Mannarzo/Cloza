@@ -831,7 +831,12 @@
     </footer>
 
    <h6> © 2023, CLOZA Powered  <a href="#">by Mannar AZ </a></h6>
+                                          
+                                          
   <!-- PopUp -->
+ <!-- PopUp -->
+
+
   <div class="popup hide-popup">
     <div class="popup-content">
       <div class="popup-close">
@@ -839,22 +844,43 @@
       </div>
       <div class="popup-left">
         <div class="popup-img-container">
-          <img class="popup-img" src="popup.jpg" alt="popup">
+          <img class="popup-img" src="pexels-freestocksorg-291762.jpg" alt="popup">
         </div>
       </div>
       <div class="popup-right">
         <div class="right-content">
           <h1>Get Discount <span>50%</span> Off</h1>
+          <h2>SUMMER IS HERE</h2>
           <p>Sign up to our newsletter and save 30% for you next purchase. No spam, we promise!
           </p>
           <form action="#">
-            <input type="email" placeholder="Enter your email..." class="popup-form">
-            <a href="#">Subscribe</a>
+
+            <a href="signup.html">Subscribe Now </a>
+          
           </form>
         </div>
       </div>
     </div>
   </div>
+<script>
+
+const popup = document.querySelector(".popup");
+const closePopup = document.querySelector(".popup-close");
+
+if (popup) {
+  closePopup.addEventListener("click", () => {
+    popup.classList.add("hide-popup");
+  });
+
+  window.addEventListener("load", () => {
+    setTimeout(() => {
+      popup.classList.remove("hide-popup");
+    }, 1000);
+  });
+}
+
+</script>
+
 
   <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
   <script>
