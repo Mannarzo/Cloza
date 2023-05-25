@@ -1517,7 +1517,7 @@ body {
 }
 
 .loading-btn{
-  background-color: #4c87b8;
+  background-color: #550101;
   border: none;
   padding: 5px 25px;
   display: inline-block;
@@ -1610,7 +1610,7 @@ label:after {
 }
 
 input:checked + label {
-	background: #0a0a0a;
+	background: rgb(255, 254, 254);
 }
 
 input:checked + label:after {
