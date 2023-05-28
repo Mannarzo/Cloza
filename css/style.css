@@ -1680,3 +1680,61 @@ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans 
 
 
 
+
+
+
+/********** Custom CSS ************/
+
+
+.offer img {
+
+
+  max-width: 60%;
+  max-height: 90%;
+  bottom: 0;
+}
+
+.container-fluid {
+
+  background-color: #ffffff;
+}
+
+.offer .text-md-right img {
+  left: 0;
+}
+.offer .container-fluid h5{
+}
+
+.offer .text-md-left img {
+  right: 0;
+}
+
+.container-fluid .row  .col-md-6  .position-relative {
+
+  background-color: #ffffff;
+  color: #030c94;
+}
+
+
+.container-fluid .row    {
+
+  background-color: #f7f5f5;
+}
+
+
+body .container-fluid .row .col-md-6 .position-relative{
+  background-color: #ffffff;
+}
+
+
+
+.container-fluid .row .col-md-6 .position-relative img{
+background-color: #ffffff;
+
+}
+
+
+
+
+
+
