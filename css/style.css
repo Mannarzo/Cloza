@@ -1734,6 +1734,35 @@ background-color: #ffffff;
 }
 
 
+.bro .nem img{
+bottom: -30px;
+margin-bottom: 50px;
+
+}
+
+
+
+.deee{
+
+  display: flex;
+  padding: 10;
+  margin: 5px;
+  justify-content: center;
+
+}
+
+
+.pt1{
+height: 500 px;
+align-items: center;
+align-content: center;
+display: flex;
+justify-content: space-between;
+justify-content: center;
+}
+
+
+
 
 
 
