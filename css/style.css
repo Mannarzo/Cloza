@@ -1810,6 +1810,14 @@ justify-content: center;
 }
 
 
+ @media only screen and (min-width: 200px) and (max-width: 767px)  {
+    .dodo .fakeimg{
+    width: 150%;
+    right: -50%;
+    bottom: -50%;
 
+  }
+   }
+  
 
 
